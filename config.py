@@ -19,21 +19,21 @@ from logging.handlers import RotatingFileHandler
 #rohit_1888 on Tg
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7542241757:")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7711384710:AAFhwT1LdOe526IirnXneaOyimC5jKED-ys")
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", ""))
+APP_ID = int(os.environ.get("APP_ID", "28450765"))
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "")
+API_HASH = os.environ.get("API_HASH", "36f00f11f9d5c65e69b81fd804453a93")
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002170811388"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002314807164"))
 # NAMA OWNER
 OWNER = os.environ.get("OWNER", "sewxiy")
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "7328629001"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "5827289728"))
 #Port
 PORT = os.environ.get("PORT", "8030")
 #Database
-DB_URI = os.environ.get("DATABASE_URL", "")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://FileSout:FileSout@cluster0.2d5js.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 #Time in seconds for message delete, put 0 to never delete
@@ -49,8 +49,8 @@ FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "0"))#put 0 to dis
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
-START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/ec17880d61180d3312d6a.jpg")
-FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/e292b12890b8b4b9dcbd1.jpg")
+START_PIC = os.environ.get("START_PIC", "https://i.ibb.co/rKnFtChV/images-q-tbn-ANd9-Gc-S49-9iz3k-S7-M7-BFEWo-Tg-Ybr-W6tmw-Czm1-VLO4-F97x-Iz-Z0ot-CTW5-OAa0-Y-s-10.jpg")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://i.ibb.co/rKnFtChV/images-q-tbn-ANd9-Gc-S49-9iz3k-S7-M7-BFEWo-Tg-Ybr-W6tmw-Czm1-VLO4-F97x-Iz-Z0ot-CTW5-OAa0-Y-s-10.jpg")
 
 # Turn this feature on or off using True or False put value inside  ""
 # TRUE for yes FALSE if no 
@@ -62,12 +62,11 @@ IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","https://t.me/hwdownload/3")
 
 
-HELP_TXT = "<b><blockquote>ᴛʜɪs ɪs ᴀɴ ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ ᴡᴏʀᴋ ғᴏʀ @Nova_Flix\n\n❏ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs\n├/start : sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ\n├/about : ᴏᴜʀ Iɴғᴏʀᴍᴀᴛɪᴏɴ\n└/help : ʜᴇʟᴘ ʀᴇʟᴀᴛᴇᴅ ʙᴏᴛ\n\n sɪᴍᴘʟʏ ᴄʟɪᴄᴋ ᴏɴ ʟɪɴᴋ ᴀɴᴅ sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ ᴊᴏɪɴ ʙᴏᴛʜ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ ᴛʜᴀᴛs ɪᴛ.....!\n\n ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ <a href=https://t.me/cosmic_freak>sᴜʙᴀʀᴜ</a></blockquote></b>"
+HELP_TXT = "<b>If you can't use me or don't get any files, it's mean you don't Some below channels. First Join These Channels Then retry.</b>"
 
-ABOUT_TXT = "<b><blockquote>◈ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/cosmic_freak>Yato</a>\n◈ ꜰᴏᴜɴᴅᴇʀ ᴏꜰ : <a href=https://t.me/otakuflix_network>ᴏᴛᴀᴋᴜғʟɪx ɴᴇᴛᴡᴏʀᴋ</a>\n◈ ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/anime_cruise_netflix>ᴀɴɪᴍᴇ ᴄʀᴜɪsᴇ</a>\n◈ sᴇʀɪᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/webseries_flix>ᴡᴇʙsᴇʀɪᴇs ғʟɪx</a>\n◈ ᴀᴅᴜʟᴛ ᴍᴀɴʜᴡᴀ : <a href=https://t.me/pornhwa_flix>ᴘᴏʀɴʜᴡᴀs</a>\n◈ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/cosmic_freak>subaru</a></blockquote></b>"
+ABOUT_TXT = "<b>• Creator: <a href=https://t.me/Soutick_09>Soutick</a>\n• Backup Channel: <a href=https://t.me/AIO_Backup>AIO Backup 🔞</a>\n• Best Friend: <a href=tg://settings>This Person</a></b>"
 
-
-START_MSG = os.environ.get("START_MESSAGE", "<b>ʜᴇʟʟᴏ {first}\n\n<blockquote> ɪ ᴀᴍ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ, ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.</blockquote></b>")
+START_MSG = os.environ.get("START_MESSAGE", "<b>Hello!! {mention} 👋! I'm Alya.\n\nI'm here to provide you adult contents for Free 😄\n\n© @AIO_Backup</b>")
 try:
     ADMINS=[6376328008]
     for x in (os.environ.get("ADMINS", "5115691197 6273945163 6103092779 5231212075 7328629001").split()):
@@ -91,7 +90,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘᴀɪ!!"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(6497757690)
+ADMINS.append(7272399911)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
