@@ -27,7 +27,7 @@ API_HASH = os.environ.get("API_HASH", "36f00f11f9d5c65e69b81fd804453a93")
 #Your db channel Id
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002314807164"))
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "sewxiy")
+OWNER = os.environ.get("OWNER", "Soutick_09")
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "5827289728"))
 #Port
@@ -37,7 +37,7 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://FileSout:FileSout@cluster
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 #Time in seconds for message delete, put 0 to never delete
-TIME = int(os.environ.get("TIME", "10"))
+TIME = int(os.environ.get("TIME", "300"))
 
 
 #force sub channel id, if you want enable force sub
