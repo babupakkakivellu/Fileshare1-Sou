@@ -62,7 +62,7 @@ IS_VERIFY = os.environ.get("IS_VERIFY", "False")
 TUT_VID = os.environ.get("TUT_VID","https://t.me/hwdownload/3")
 
 
-HELP_TXT = "<b>If you can't use me or don't get any files, it's mean you don't Some below channels. First Join These Channels Then retry.</b>"
+HELP_TXT = "<b>Ohhh yeah! Fuck Me! Fuck My Pussy! Fuck! Join @AIO_Backup</b>"
 
 ABOUT_TXT = "<b>• Creator: <a href=https://t.me/Soutick_09>Soutick</a>\n• Backup Channel: <a href=https://t.me/AIO_Backup>AIO Backup 🔞</a>\n• Best Friend: <a href=tg://settings>This Person</a></b>"
 
