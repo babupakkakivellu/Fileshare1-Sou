@@ -146,7 +146,7 @@ async def start_command(client: Client, message: Message):
 
         if FILE_AUTO_DELETE > 0:
             notification_msg = await message.reply(
-                f"<b>This file will be deleted in {get_exp_time(FILE_AUTO_DELETE)}. Please save or forward it to your saved messages before it gets deleted.</b>"
+                f"<b>This file will be deleted in {get_exp_time(FILE_AUTO_DELETE)}. Don't warry, after delete you can again get this file.</b>"
             )
 
             await asyncio.sleep(FILE_AUTO_DELETE)
@@ -177,7 +177,7 @@ async def start_command(client: Client, message: Message):
     else:
         reply_markup = InlineKeyboardMarkup(
             [
-                    [InlineKeyboardButton("• ᴍᴏʀᴇ ᴄʜᴀɴɴᴇʟs •", url="https://t.me/Nova_Flix/50")],
+                    [InlineKeyboardButton("• ᴍᴏʀᴇ ᴄʜᴀɴɴᴇʟs •", url="https://t.me/AIO_Backup")],
 
     [
                     InlineKeyboardButton("• ᴀʙᴏᴜᴛ", callback_data = "about"),
